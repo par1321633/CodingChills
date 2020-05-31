@@ -1,0 +1,60 @@
+Theory:
+
+Sorted Array : Inserting Item is very slow O(N)
+               Search is Fast
+               With the help of binary Search
+
+               Delete Slow
+
+Linked List : Insert O(1)
+              Search is slow, sequencial
+              Remove Fast O(1)
+
+Hence it's important to use DS based on usage.
+
+Binary Search Tree is going to make all these operations fast. (logN)
+
+
+Tree
+Have Node with Data and Connection between Nodes (Edges)
+Root Node
+Leaf Node
+
+Operations:
+Search , Insert and Delete  - O(logN)
+In Order (Left Root Right), Pre Order (Root, Left , Right) and Post Order Traversal (Left Right Root)
+
+
+Avg Case Complexity    Worst Case
+O(N)                     O(N)           Space
+O(logN)                  O(N)           Search
+O(logN)                  O(N)           Insert
+O(logN)                  O(N)           Delete
+
+
+Applications:
+Hierarchy
+Operating System
+Game Tree
+Machine Learning Decision Tree
+
+
+
+AVL :
+ Motivation :
+    if tree is unbalanced then it will act as linked list. Hence operations like insert, search and delete will O(N).
+    In order to make tree balanced, We have 2 set of trees:
+        AVL
+        Red Black Trees
+
+ Height Parameter for Balancing:
+ if height difference of left and right subtree then tree is unbalanced.
+ Balance it by making rotations.
+
+ Worst Case will be equal to AVG case.
+
+
+LL R
+RR R
+LR R
+RL R

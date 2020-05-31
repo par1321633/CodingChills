@@ -74,20 +74,19 @@ class LinkedList:
             current = current.next
 
     def delete_node(self, data):
-        current = self.head
-        if current.data == data:
-            self.head = current.next
+        if self.head is None:
             return
+        current = self.head
+        previous = None
 
-        while current:
-            if current.next is None:
-                print ("Data is Not Present in LinkedList")
-                return
-
-            if current.next.data == data:
-                current.next = current.next.next
-                break
+        while current.data != data:
+            previous = current
             current = current.next
+        if previous is None:
+            self.head = current.next
+        else:
+            previous.next = current.next
+
 
 node = Node(10)
 ll = LinkedList(node)

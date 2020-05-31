@@ -1,0 +1,16 @@
+Array
+Collection of elements/values each identified by an array index or key.
+store items of same type
+- index start at 0
+Multidimensional Array:
+numbers[row_index][col_index]
+
+Applications : lookup tables/hashtables heaps
+Dynamic Array
+Random Access :- If we know index then complexity O(1)
+Fast, Easy
+
+Disadvantages:
+Size is fixed, Not so dynamic DS
+if it is full then we have to create big array
+Not able to store item of different types

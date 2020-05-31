@@ -1,0 +1,47 @@
+Linked List:
+Composed of Nodes and Pointer.
+Last Node points to Null.
+
+
+-- Can be used to implement stacks and queue.
+-- No Random Access like we have an array
+-- Many basic operation such as obtaining the last node or append require sequencial scanning.
+
+Advantages:
+- Dynamic
+- efficent to manuplates items at begining
+- easy implementation
+
+Disadvantages:
+- Extra memory because of refrences
+- Access, Reverse Tracking
+
+
+Operations
+-- Traverse
+-- Insert Item at Begin
+-- Insert at last
+-- Insert at any index
+-- Remove first O(1)
+-- Remove any item O(N)
+
+
+Double Linked List:
+2 Reference Stored:
+1 Point to Prev Node while another point to next node.
+
+Linked List vs Arrays:
+SEARCH :-
+    Array List is better than Linked List O(1), Random Access
+
+DELETION :-
+    Linked List Better, In LL just to remove reference while in ARRAY we need to update following items.
+
+MEMORY MANAGEMENT:
+    LL need more memory. Array is memory friendly
+     OPS            LL    Array
+    SEARCH         O(N)   O(1)
+    INSERT         O(1)   O(N)
+    INSERT at end  O(N)   O(1)
+    Waste Space    O(N)    0
+

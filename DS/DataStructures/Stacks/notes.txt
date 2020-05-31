@@ -1,0 +1,27 @@
+#################3  Introduction #########################################
+ADT (Interface)
+Functions : pop(), push(), peek()
+LIFO
+Implemented using Arrays and Linked List
+
+pop() -> O(1)
+peek() -> O(1)
+Only difference is pop remove items from stack.
+
+Applications:
+-- stack oriented programming languages
+-- Graph Algo Depth First Search Algo
+-- Finding Euler Cycle in graph
+-- Find strongly connected components in graph
+
+############## Stacks in Memory Management ###############################
+Stacks in Memory Management (stacks, heaps)
+Stacks Memory
+Every time function declares new variable it is pushed to stack.
+And when function exits all the varaible pushed in stack are freed.
+Limited Memory
+
+Heaps Memory
+Not Automatic, We have to deallocate these memory chunks.
+Reference Types and Object are Stored in Heap.
+Memory Leak Issue

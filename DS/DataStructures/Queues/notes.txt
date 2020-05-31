@@ -1,0 +1,14 @@
+#################3  Introduction #########################################
+ADT (Interface)
+Functions : enqueue(), dequeue(), peek()
+FIFO
+Implemented using Arrays and Linked List
+Application BFS algo for Graph
+
+enqueue() -> O(1) - Add new item at the end
+dequeue() -> O(1) - Remove item from the start
+
+Applications:
+-- CPU scheduling
+-- IO Buffers
+-- Operational research application or stochastic model relies heavily on queue.
